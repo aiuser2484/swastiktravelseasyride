@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swastik Travels Easy Ride | Taxi Booking in Gurugram – Local, Outstation, Airport</title>
+  <meta name="description" content="Swastik Travel Easy Ride – Trusted taxi service in Gurugram for Local 8H/80KM, Outstation, Airport transfers, Corporate cabs & holiday packages. Book online now." />
+  <meta name="keywords" content="swastik travels, swastik travel, Gurugram taxi, Gurgaon cabs, outstation taxi, airport taxi, local 8H 80KM, tempo traveller, Innova Crysta, corporate cabs, Delhi, Chandighar, Manali, Shimla, Agra, Haridwar, Rishikesh, holidays, trip,cars, yatra, makemytrip, ola, uber,rapido " />
+  <link rel="canonical" href="https://swastiktravels.co.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Swastik Travels Easy Ride – Taxi Booking" />
+  <meta property="og:description" content="Local, Outstation, Airport & Corporate taxi services from Gurugram. Instant online booking." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://swastiktravels.co.in/" />
+  <!--<meta property="og:image" content="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?q=80&w=1200&auto=format&fit=crop" />-->
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%23ffcc00"/><path d="M10 40h44l-4-12H14l-4 12zm6 0a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm32 0a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" fill="%23000"/><rect x="20" y="22" width="24" height="6" fill="%23000"/></svg>' />
+
+  <!-- Fonts (system stack for speed) -->
+  <style>
+      /* Styles for screens smaller than 768px */
+    @media (max-width: 767px) {
+        body {
+            font-size: 10px;			 
+        }
+		nav a{padding:0rem 0rem !important;border-radius:10px !important}
+    }
+
+    /* Styles for screens larger than 768px */
+    @media (min-width: 768px) {
+        body {
+            font-size: 16px;			
+        }
+		nav a{padding:.6rem .8rem !important;border-radius:10px !important}
+    }
+    :root{
+      --yellow:#FFC107; /* primary */
+      --black:#111111;
+      --orange:#FF6A00;
+      --green:#16A34A;
+      --white:#ffffff;
+      --bg:#0b0b0b;
+      --muted:#6b7280;
+      --radius:16px;
+      --shadow:0 10px 30px rgba(0,0,0,.12);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";color:#111;background:#fff;}
+    a{text-decoration:none;color:inherit !important}
+	.email{color:#FF6A00;}
+    img{max-width:100%;display:block}
+    .container{width:min(1120px, 92%);margin-inline:auto}
+    .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 1.2rem;border-radius:var(--radius);background:var(--yellow);color:#111;font-weight:700;box-shadow:var(--shadow);border:0;cursor:pointer}
+	.btnWhatsApp{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 1.2rem;border-radius:var(--radius);background-color:var(--green) !important;color:#111;font-weight:600;box-shadow:var(--shadow);border:0;cursor:pointer}
+    .btn:hover{filter:brightness(.95)}
+	.btnWhatsApp:hover{filter:brightness(.95)}
+    .btn-outline{background:transparent;border:2px solid var(--yellow)}
+	.btnWhatsApp-outline{background:transparent;border:2px solid var(--green)}
+    .tag{display:inline-block;padding:.2rem .6rem;border-radius:999px;font-size:.8rem;background:#111;color:#fff}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:50}
+    header .bar{display:flex;align-items:center;justify-content:space-between;padding:.7rem 0}
+    nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0}
+    <!--nav a{padding:.6rem .8rem;border-radius:10px}-->
+    nav a:hover{background:#f6f6f6}
+
+    /* Hero */
+    .hero{position:relative;isolation:isolate}
+    .hero .bg{position:absolute;inset:0;background:url('Images/background.avif?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;filter:brightness(.5);z-index:-1}
+    .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:2rem;align-items:center;padding:4rem 0}
+    @media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:1.5rem;padding:3rem 0}}
+    h1{font-size:clamp(2rem, 3vw + 1rem, 3.4rem);line-height:1.1;margin:.2rem 0;color:#fff}
+    .hero p{color:#f1f5f9;font-size:1.1rem}
+    .glass{backdrop-filter: blur(8px);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius);}
+
+    /* Card */
+    .card{border:1px solid #eee;border-radius:var(--radius);box-shadow:var(--shadow);background:#fff}
+    .card h3{margin:.2rem 0}
+
+    /* Booking form */
+    form{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+    form .full{grid-column:1/-1}
+    label{font-weight:600;font-size:.9rem}
+    input, select, textarea{width:100%;padding:.8rem;border-radius:12px;border:1px solid #e5e7eb;background:#fff}
+
+    /* Sections */
+    section{padding:3.5rem 0}
+    section h2{font-size:clamp(1.6rem, 2vw + .9rem, 2.2rem);margin:0 0 1rem}
+    .sub{color:var(--muted);margin-bottom:2rem}
+
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+    .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+    @media (max-width:1000px){.grid-4{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:780px){.grid-3,.grid-2,.grid-4{grid-template-columns:1fr}}
+
+    /* Service icons (inline SVG) */
+    .icon{width:40px;height:40px}
+
+    /* Popular routes cards */
+    .route{position:relative;overflow:hidden}
+    .route img{width:100%;height:180px;object-fit:cover;border-top-left-radius:var(--radius);border-top-right-radius:var(--radius)}
+    .route .p{padding:1rem}
+
+    /* Fleet */
+    .fleet-card{display:grid;grid-template-columns:140px 1fr;gap:1rem;padding:1rem;align-items:center}
+    .fleet-card img{width:140px;height:90px;object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,.15))}
+    @media (max-width:640px){.fleet-card{grid-template-columns:1fr}.fleet-card img{margin-inline:auto}}
+    table{width:100%;border-collapse:collapse}
+    th, td{border-bottom:1px solid #eee;padding:.8rem;text-align:left}
+    th{background:#fafafa}
+
+    /* CTA band */
+    .cta{background:linear-gradient(135deg,var(--yellow),var(--orange));color:#111;border-radius:var(--radius);padding:1.2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    @media(max-width:780px){.cta{flex-direction:column;align-items:flex-start}}
+
+    /* Footer */
+    footer{background:#0f172a;color:#e5e7eb}
+    footer a{color:#e5e7eb}
+    .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:1rem}
+    @media (max-width:900px){.cols{grid-template-columns:1fr 1fr}}
+    @media (max-width:620px){.cols{grid-template-columns:1fr}}
+
+    /* Floating WhatsApp */
+    .wa{position:fixed;right:18px;bottom:18px;background:var(--green);color:#111;border-radius:999px;padding:.9rem 1.1rem;box-shadow:var(--shadow);display:flex;gap:.6rem;align-items:center;font-weight:700;z-index:60}
+
+    /* Small helpers */
+    .badge{background:var(--black);color:#fff;border-radius:999px;padding:.2rem .6rem;font-size:.75rem}
+    .muted{color:var(--black)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+	
+	
+	/* New css*/
+	 @media(min-width: 768px) {.md\:grid-cols-4 {grid-template-columns: repeat(4, minmax(0, 1fr));}}
+	.gap-6 {gap: 1.5rem;}
+    .grid-cols-1 {grid-template-columns: repeat(1, minmax(0, 1fr));}
+    .grid {display: grid;}
+    .mt-8 {margin-top: 2rem;}
+	.text-center{text-align: center;}
+    .p-6 {padding: 1.5rem;}
+    .border {border-width: 1px;border-style:solid;border-color:#e5e7eb !important}
+    .rounded-lg {border-radius: 0.5rem;}
+	.imgServices{max-width:100%; display:inline;}
+	.mt-6 {margin-top: 1.5rem;}
+	.gap-6 {gap: 1.5rem;}
+	.md\:grid-cols-3 {grid-template-columns: repeat(3, minmax(0, 1fr));}
+	.shadow {--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+			--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+				box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);}
+	.p-4 {padding: 1rem;}
+    .bg-white {--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));}
+    .rounded-lg {border-radius: 0.5rem;}
+	.font-semibold {
+    font-weight: 600;
+}
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+	font-weight:500;
+}
+.font-medium {
+    font-weight: 500;
+}
+
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+.mt-3 {
+    margin-top: 0.75rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.border {
+    border-width: 1px;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.w-full {
+    width: 100%;
+}
+	
+  </style>
+
+  <!-- JSON-LD Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TaxiService",
+    "name": "Swastik Travels Easy Ride",
+    "url": "https://swastiktravels.co.in/",
+    "logo": "",
+    "areaServed": "Gurugram, Delhi NCR, India",
+    "telephone": "+91-9XXXXXXXXX",
+    "priceRange": "₹₹",
+    "sameAs": ["https://facebook.com/yourpage","https://instagram.com/yourpage"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Near Huda City Centre",
+      "addressLocality": "Gurugram",
+      "addressRegion": "Haryana",
+      "postalCode": "122002",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container bar">
+      <a href="#" aria-label="Swastik Travels Easy Ride" class="logo" style="display:flex;gap:.6rem;align-items:center">
+        <!--<span class="tag" style="background:var(--yellow);color:#111">🚕</span>-->		
+		<img src="images/swastik_logo.png" alt="Swastik Logo" height="40px" width="40px" />
+        <!--<span style="font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Inter, Arial, sans-serif"><strong>Swastik Travels Easy Ride</strong></span>-->
+		<span style="font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Inter, Arial, sans-serif;font-weight:800;letter-spacing: .3px;">Swastik Travels <span style="color:var(--orange)">Easy Ride</span></span>
+      </a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#routes">Popular Routes</a></li>
+          <li><a href="#fleet">Fleet</a></li>
+          <li><a href="#about">About</a></li>
+          <!--<li><a href="#blog">Blog</a></li>-->
+          <!--<li><a href="#contact" class="btn" style="padding:.6rem .9rem">Book Now</a></li>-->
+		  <li><a href="#home" class="btn" style="padding:.6rem .9rem">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero + Booking -->
+  <section class="hero" id="home">
+    <div class="bg" aria-hidden="true"></div>
+    <div class="container wrap">
+      <div>
+        <span class="badge">Gurugram · Delhi NCR</span>
+        <h1>Reliable taxis for Local, Outstation & Airport rides.</h1>
+        <p>Instant confirmations, transparent pricing & pro drivers. 24×7 support on call & WhatsApp.</p>
+        <div style="display:flex;gap:1rem;margin-top:1rem">
+          <!--<a href="#contact" class="btn">Book Now</a>-->
+		  <a href="#home" class="btn">Book Now</a>
+          <a href="#fleet" class="btn btn-outline" style="display:none;" aria-label="See our fleet">View Fleet</a>
+        </div>
+      </div>
+
+      <div class="card glass" style="padding:1.2rem">
+        <h2 style="color:#0b0b0b;margin:.2rem 0 1rem">Quick Booking</h2>
+        <form id="booking-form" autocomplete="on">
+          <div class="full">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+91-" required />
+          </div>
+          <div>
+            <label for="email">Email (optional)</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" />
+          </div>
+          <div>
+            <label for="pickup">Pickup Location</label>
+            <input id="pickup" name="pickup" placeholder="e.g., Gurugram Sector 29" required />
+          </div>
+          <div>
+            <label for="drop">Drop Location</label>
+            <input id="drop" name="drop" placeholder="e.g., IGI Airport T3" required />
+          </div>
+          <div>
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" required />
+          </div>
+          <div>
+            <label for="time">Time</label>
+            <input id="time" name="time" type="time" required />
+          </div>
+          <div>
+            <label for="type">Cab Type</label>
+            <select id="type" name="type" required>
+              <option value="Hatchback">Hatchback (Swift)</option>
+              <option value="Sedan">Sedan (Dzire/Etios)</option>
+              <option value="SUV">SUV (Ertiga)</option>
+              <option value="Innova Crysta">Innova Crysta</option>
+              <option value="Tempo Traveller">Tempo Traveller</option>
+              <option value="Luxury">Luxury Cars</option>
+            </select>
+          </div>
+          <div>
+            <label for="trip">Trip</label>
+            <select id="trip" name="trip" required>
+              <option>One Way</option>
+              <option>Round Trip</option>
+              <option>Local 8H/80KM</option>
+              <option>Airport</option>
+              <option>Holiday Packages</option>
+            </select>
+          </div>
+          <div class="full">
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" rows="2" placeholder="Any special request?"></textarea>
+          </div>
+          <div class="full" style="display:flex;gap:.8rem;align-items:center">
+            <button class="btn" type="submit">Submit & WhatsApp</button>
+            <small class="muted">We'll send details to WhatsApp and email (if provided).</small>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p class="sub">From quick local runs to long outstation journeys – book what you need.</p>
+      <!--<div class="grid-4">
+        <div class="card" style="padding:1rem">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 15h18l-2-6H5l-2 6Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
+          <h3>Local Taxi (8H/80KM)</h3>
+          <p class="muted">City errands, meetings, shopping – flexible hourly packages.</p>
+        </div>
+        <div class="card" style="padding:1rem">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 10h18M6 6h12M4 14h16M6 18h12"/></svg>
+          <h3>Outstation Rides</h3>
+          <p class="muted">Door-to-door trips across North India with expert drivers.</p>
+        </div>
+        <div class="card" style="padding:1rem">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 16l9-9 9 9"/><path d="M9 10l3-3 3 3"/></svg>
+          <h3>Airport Pickup/Drop</h3>
+          <p class="muted">On-time pickups to & from IGI T3/T2 with flight tracking.</p>
+        </div>
+        <div class="card" style="padding:1rem">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M7 20h10"/></svg>
+          <h3>Corporate Travel</h3>
+          <p class="muted">Monthly billing, GST invoices & dedicated account manager.</p>
+        </div>
+      </div> -->
+	  <div class="grid-4">
+	  <!--<div class="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">-->
+        <article class="p-6 rounded-lg border text-center">
+          <img src="images/taxi.png" alt="local" class="imgServices"/>
+          <h3 class="mt-4 font-semibold">Local Taxi</h3>
+          <p class="mt-2 text-sm text-gray-600">Hourly/local rides for city travel.</p>
+        </article>
+        <article class="p-6 rounded-lg border text-center">
+          <img src="images/mountain.png" alt="outstation" class="imgServices"/>
+          <h3 class="mt-4 font-semibold">Outstation Rides</h3>
+          <p class="mt-2 text-sm text-gray-600">Comfortable drives to hill stations and cities.</p>
+        </article>
+        <article class="p-6 rounded-lg border text-center">
+          <img src="images/airport.png" alt="airport" class="imgServices"/>
+          <h3 class="mt-4 font-semibold">Airport Pickup/Drop</h3>
+          <p class="mt-2 text-sm text-gray-600">Punctual pickups with flight tracking option.</p>
+        </article>
+        <article class="p-6 rounded-lg border text-center">
+          <img src="images/briefcase.png" alt="corporate" class="imgServices"/>
+          <h3 class="mt-4 font-semibold">Corporate Travel</h3>
+          <p class="mt-2 text-sm text-gray-600">Reliable corporate billing and monthly contracts.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Routes / Packages -->
+  <section id="routes" style="background:#fafafa">
+    <div class="container">
+      <h2>Popular Routes & Packages</h2>
+      <p class="sub">Handpicked city-to-city rides from Gurugram with instant booking.</p>
+      <div class="grid-3" id="routes-grid">
+        <!-- Cards injected by JS from ROUTES array for maintainability -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Fleet -->
+  <section id="fleet">
+    <div class="container">
+      <h2>Our Fleet</h2>
+      <p class="sub">Clean, comfortable cars with professional, verified chauffeurs.</p>
+
+      <!--<div class="grid-2" id="fleet-list">
+        <!-- Fleet cards injected by JS -->
+      <!--</div>-->
+	  <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <!-- cards -->
+        <!-- Hatchback -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="images/Swift.png?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc" class="w-full h-40 object-cover rounded" alt="Hatchback"/>
+          <h3 class="mt-3 font-semibold">Hatchback</h3>
+          <p class="text-sm text-gray-600">Capacity: 4 Seater</p>
+          <p class="mt-2 font-medium">Rate: ₹11/km | Min Fare: ₹1,200</p>
+          <div class="mt-3"><!--<button class="bookNowBtn w-full py-2 rounded border" data-type="Hatchback">Book Now</button>--><a href="#home" class="btn">Book Now</a></div>
+        </div>
+
+        <!-- Sedan -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="images/Sedan.png?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc" class="w-full h-40 object-cover rounded" alt="Sedan"/>
+          <h3 class="mt-3 font-semibold">Sedan (Dzire/Etios)</h3>
+          <p class="text-sm text-gray-600">Capacity: 4 Seater</p>
+          <p class="mt-2 font-medium">Rate: ₹13/km | Min Fare: ₹1,500</p>
+          <div class="mt-3"><!--<button class="bookNowBtn w-full py-2 rounded border" data-type="Sedan">Book Now</button>--><a href="#home" class="btn">Book Now</a></div>
+        </div>
+
+        <!-- Innova -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="images/crysta.png?q=80&w=1200&wauto=format&fit=crop&ixlib=rb-4.0.3&s=abc" class="w-full h-40 object-cover rounded" alt="Innova"/>
+          <h3 class="mt-3 font-semibold">Innova Crysta</h3>
+          <p class="text-sm text-gray-600">Capacity: 6/7 Seater</p>
+          <p class="mt-2 font-medium">Rate: ₹18/km | Min Fare: ₹2,500</p>
+          <div class="mt-3"><!--<button class="bookNowBtn w-full py-2 rounded border" data-type="Innova Crysta">Book Now</button>--><a href="#home" class="btn">Book Now</a></div>
+        </div>
+
+        <!-- SUV -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="images/Ertiga.png?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc" class="w-full h-40 object-cover rounded" alt="SUV"/>
+          <h3 class="mt-3 font-semibold">SUV (Ertiga)</h3>
+          <p class="text-sm text-gray-600">Capacity: 6 Seater</p>
+          <p class="mt-2 font-medium">Rate: ₹15/km | Min Fare: ₹2,200</p>
+          <div class="mt-3"><!--<button class="bookNowBtn w-full py-2 rounded border" data-type="SUV">Book Now</button>--><a href="#home" class="btn">Book Now</a></div>
+        </div>
+
+        <!-- Tempo Traveller -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="images/TempoTraveller.png?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc" class="w-full h-40 object-cover rounded" alt="Tempo Traveller"/>
+          <h3 class="mt-3 font-semibold">Tempo Traveller</h3>
+          <p class="text-sm text-gray-600">Capacity: 12–17 Seater</p>
+          <p class="mt-2 font-medium">Rate: ₹24/km | Min Fare: ₹4,500</p>
+          <div class="mt-3"><!--<button class="bookNowBtn w-full py-2 rounded border" data-type="Tempo Traveller">Book Now</button>--><a href="#home" class="btn">Book Now</a></div>
+        </div>
+
+        <!-- Luxury -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <img src="images/Luxurycar.png?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc" class="w-full h-40 object-cover rounded" alt="Luxury"/>
+          <h3 class="mt-3 font-semibold">Luxury Cars</h3>
+          <p class="text-sm text-gray-600">On Request</p>
+          <p class="mt-2 font-medium">Contact for rates</p>
+          <div class="mt-3"><!--<button class="bookNowBtn w-full py-2 rounded border" data-type="Luxury">Book Now</button>--><a href="#home" class="btn">Book Now</a></div>
+        </div>
+
+      </div>
+
+      <div class="card" style="margin-top:1rem;display:none;">
+        <div style="overflow:auto">
+          <table aria-label="Fare chart">
+            <thead>
+              <tr>
+                <th>Car Type</th>
+                <th>Capacity</th>
+                <th>Rate (per km)</th>
+                <th>Min. Fare</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="fare-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" style="background:#fafafa">
+    <div class="container">
+      <h2>About Swastik Travels Easy Ride</h2>
+      <div class="grid-2">
+        <div class="card" style="padding:1rem">
+          <h3>Who we are</h3>
+          <p>We are a Gurugram-based taxi company focused on punctuality, safety and fair pricing. From local commutes to long outstation holidays, our mission is to make travel comfortable and hassle‑free.</p>
+          <ul>
+            <li>✔ Experienced, background‑verified chauffeurs</li>
+            <li>✔ Transparent, all‑inclusive quotes</li>
+            <li>✔ 24×7 support on call & WhatsApp</li>
+            <li>✔ Sanitized cars & safety‑first policy</li>
+          </ul>
+        </div>
+        <div class="card" style="padding:1rem">
+          <h3>Why choose us</h3>
+          <p>Thousands of happy riders trust us for daily commutes, airport transfers, corporate events and weekend getaways.</p>
+          <div class="cta">
+            <div>
+              <strong style="font-size:1.1rem">Ready to ride?</strong>
+              <p class="muted" style="margin:.2rem 0 0">Ping us for a quick quote with zero hidden charges.</p>
+            </div>
+            <!--<a href="#contact" class="btn">Get a Quote</a>-->
+			<a href="#home" class="btn">Get a Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog / Tips -->
+  <section id="blog" style="display:none;">
+    <div class="container">
+      <h2>Travel Tips & Guides</h2>
+      <p class="sub">Kickstart your blog with these topics.</p>
+      <div class="grid-3" id="blog-grid"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" style="background:#fafafa">
+    <div class="container">
+      <h2>Contact & Booking</h2>
+      <div class="grid-2">
+        <div class="card" style="padding:1rem">
+          <form id="contact-form">
+            <div class="full">
+              <label for="cname">Name</label>
+              <input id="cname" name="name" required />
+            </div>
+            <div>
+              <label for="cphone">Phone</label>
+              <input id="cphone" name="phone" type="tel" required />
+            </div>
+            <div>
+              <label for="cemail">Email</label>
+              <input id="cemail" name="email" type="email" />
+            </div>
+            <div class="full">
+              <label for="cmsg">Message</label>
+              <textarea id="cmsg" name="message" rows="4" placeholder="Tell us about your trip"></textarea>
+            </div>
+            <div class="full" style="display:flex;gap:.8rem;align-items:center">
+              <button class="btn" type="submit">Send Message</button>
+              <a class="btnWhatsApp btnWhatsApp-outline" id="wa-direct" target="_blank" rel="noopener">WhatsApp Chat</a>
+            </div>
+          </form>
+          <p class="muted" style="margin-top:.8rem">Phone: <a href="tel:+919910460633">+919910460633</a>  Email: <a href="swastiktravelsgurugram@gmail.com">swastiktravelsgurugram@gmail.com</a></p>
+        </div>
+        <div class="card" style="overflow:hidden">
+          <iframe title="Office location" width="100%" height="420" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.210765563722!2d77.0736865!3d28.4669078!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d193f94bfb9e7%3A0x8c4d4f0f3d2d40b!2sD-246%2C%20Sushant%20Shopping%20Arcade%2C%20Sushant%20Lok-I%2C%20Gurgaon%2C%20Haryana%20122009%2C%20India!5e0!3m2!1sen!2sin!4v1693497600000!5m2!1sen!2sin"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="padding:2rem 0">
+      <div class="cols">
+        <div>
+          <h3 style="margin-top:0">Swastik Travels Easy Ride</h3>
+          <p>Trusted taxis for Gurugram & beyond. Book Local, Outstation, Airport & Corporate rides.</p>
+          <p>
+            <a href="tel:+919910460633">📞 +919910460633</a> 
+            <a href="swastiktravelsgurugram@gmail.com"><span class="email">✉</span><span>swastiktravelsgurugram@gmail.com</span></a>
+          </p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul style="list-style:none;padding:0;line-height:2">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#routes">Popular Routes</a></li>
+            <li><a href="#fleet">Fleet</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Policies</h4>
+          <ul style="list-style:none;padding:0;line-height:2">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <p>
+            <a href="https://www.facebook.com/people/Swastik-Travels-Easy-Ride-PvtLtd/61565938230630/?rdid=oBBMqb3INJ3lWlJa&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GiWyiNHwA%2F" target="_blank">Facebook</a><br/>
+            <a href="https://www.instagram.com/reel/DN36FQ4E2JD/?igsh=MXVjdmdnMGM5aGd6Nw%3D%3D" target="_blank">Instagram</a><br/>
+            <a href="#">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <hr style="border-color:#1f2937;margin:1rem 0" />
+      <p style="font-size:.9rem;color:#94a3b8">© <span id="year"></span> Swastik Travel Easy Ride. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a class="wa" id="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span>💬 WhatsApp</span>
+  </a>
+
+  <!-- Scripts -->
+  <script>
+  // --- Constants (edit these) ---
+  const BUSINESS = {
+    name: 'Swastik Travel Easy Ride',
+    phone: '+919910460633', // replace with your business WhatsApp number
+    email: 'swastiktravelsgurugram@gmail.com'
+  };
+
+  // --- Utilities ---
+  const $ = sel => document.querySelector(sel);
+  const formatDate = (v)=>{try{const d=new Date(v);return d.toLocaleDateString('en-IN',{year:'numeric',month:'short',day:'numeric'});}catch{ return v }}
+
+  // --- Popular Routes Data (with free Unsplash photos) ---
+  const ROUTES = [
+    {t:'Gurugram ⇄ Agra (Taj Mahal)', img:'images/Agra.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Jaipur', img:'images/Jaipur.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Haridwar/Rishikesh', img:'images/Haridwar_Rishikesh.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Manali/Solang Valley', img:'images/Manali_SolangValley.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Mussoorie', img:'images/Mussoorie.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Mathura/Vrindavan', img:'images/Mathura_Vrindavan.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Vaishno Devi (Katra)', img:'images/VaishnoDevi.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Dharamsala/McLeodGanj', img:'images/Dharamsala_McLeodGanj.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Jim Corbett National Park', img:'images/JimCorbettNationalPark.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Shimla', img:'images/Shimla.jpg?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Char Dham Yatra', img:'images/CharDham.png?q=80&w=1200&auto=format&fit=crop'},
+    {t:'Gurugram ⇄ Khatu Shyam', img:'images/KhatuShyatemple.jpg?q=80&w=1200&auto=format&fit=crop'}
+  ];
+
+  // --- Fleet Data ---
+  const FLEET = [
+    {name:'Hatchback (Swift)', cap:'4 Seater', rate:'₹11/km', min:'₹1,200', img:'data:image/svg+xml;utf8,'+encodeURIComponent(`<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#FFF7E6\"/><path d=\"M30 120h260l-18-40H110l-18 20H48l-18 20z\" fill=\"#111\"/><circle cx=\"90\" cy=\"130\" r=\"14\" fill=\"#111\"/><circle cx=\"230\" cy=\"130\" r=\"14\" fill=\"#111\"/></svg>`)} ,
+    {name:'Sedan (Dzire/Etios)', cap:'4 Seater', rate:'₹12/km', min:'₹1,500', img:'data:image/svg+xml;utf8,'+encodeURIComponent(`<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#FFF0F0\"/><path d=\"M30 120h260l-14-32H130l-22 12H54l-24 20z\" fill=\"#111\"/><circle cx=\"95\" cy=\"130\" r=\"14\" fill=\"#111\"/><circle cx=\"235\" cy=\"130\" r=\"14\" fill=\"#111\"/></svg>`)} ,
+    {name:'Innova Crysta', cap:'6/7 Seater', rate:'₹18/km', min:'₹2,500', img:'data:image/svg+xml;utf8,'+encodeURIComponent(`<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#E6FFF2\"/><path d=\"M24 122h272l-20-44H140l-28 18H60l-36 26z\" fill=\"#111\"/><circle cx=\"96\" cy=\"132\" r=\"16\" fill=\"#111\"/><circle cx=\"236\" cy=\"132\" r=\"16\" fill=\"#111\"/></svg>`)} ,
+    {name:'SUV (Ertiga)', cap:'6 Seater', rate:'₹15/km', min:'₹2,200', img:'data:image/svg+xml;utf8,'+encodeURIComponent(`<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#E6F5FF\"/><path d=\"M26 120h268l-18-36H140l-28 12H64l-38 24z\" fill=\"#111\"/><circle cx=\"96\" cy=\"130\" r=\"16\" fill=\"#111\"/><circle cx=\"236\" cy=\"130\" r=\"16\" fill=\"#111\"/></svg>`)} ,
+    {name:'Tempo Traveller', cap:'12–17 Seater', rate:'₹24/km', min:'₹4,500', img:'data:image/svg+xml;utf8,'+encodeURIComponent(`<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\"><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"#F0E6FF\"/><rect x=\"40\" y=\"90\" width=\"240\" height=\"40\" rx=\"8\" fill=\"#111\"/><rect x=\"56\" y=\"96\" width=\"60\" height=\"16\" rx=\"2\" fill=\"#FFF\"/><circle cx=\"96\" cy=\"138\" r=\"16\" fill=\"#111\"/><circle cx=\"236\" cy=\"138\" r=\"16\" fill=\"#111\"/></svg>`)} ,
+    {name:'Luxury Cars', cap:'On Request', rate:'—', min:'—', img:'data:image/svg+xml;utf8,'+encodeURIComponent(`<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\"><defs><linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FFD700\"/><stop offset=\"1\" stop-color=\"#FF8C00\"/></linearGradient></defs><rect width=\"320\" height=\"180\" rx=\"18\" fill=\"url(#g)\"/><path d=\"M40 120h240l-12-28H136l-20 10H72l-32 18z\" fill=\"#111\"/><circle cx=\"98\" cy=\"130\" r=\"14\" fill=\"#111\"/><circle cx=\"230\" cy=\"130\" r=\"14\" fill=\"#111\"/></svg>`)} ,
+  ];
+
+  // --- Blog seed topics ---
+  const BLOG = [
+    {t:'Delhi Airport to Gurugram: Best Time & Route', p:'Beat traffic with these timing hacks and routes.'},
+    {t:'How to choose a cab for Outstation trips', p:'Sedan vs SUV vs Crysta – what fits your group & luggage.'},
+    {t:'Char Dham by road: planning checklist', p:'Documents, weather windows, and safety tips.'},
+    {t:'Local 8H/80KM explained', p:'What\'s included, extra km charges and tips to save.'},
+    {t:'Corporate cab policy template', p:'A ready checklist for office travel admins.'},
+    {t:'Hills driving safety tips', p:'What we do on mountain routes to keep you safe.'},
+  ];
+
+  // --- Build UI ---
+  function buildRoutes(){
+    const wrap = document.getElementById('routes-grid');
+    wrap.innerHTML = '';
+    ROUTES.forEach(r=>{
+      const el = document.createElement('div');
+      el.className = 'card route';
+      el.innerHTML = `
+        <img src="${r.img}" alt="${r.t}" loading="lazy"/>
+        <div class="p">
+          <h3 style="margin:.2rem 0">${r.t}</h3>
+          <div style="display:flex;gap:.6rem;align-items:center;justify-content:space-between">
+            <span class="muted">Door‑to‑door · Tolls extra</span>
+            <!--<button class="btn" href="#home" data-route="${r.t}">Get Quote</button>-->
+			<a href="#home" class="btn">Get Quote</a>
+          </div>
+        </div>`;
+      wrap.appendChild(el);
+    })
+  }
+
+  function buildFleet(){
+    const list = document.getElementById('fleet-list');
+    const tbody = document.getElementById('fare-table');
+    list.innerHTML = ''; tbody.innerHTML='';
+    FLEET.forEach(f=>{
+      const card = document.createElement('div');
+      card.className = 'card fleet-card';
+      card.innerHTML = `
+        <img src="${f.img}" alt="${f.name}" loading="lazy"/>
+        <div>
+          <h3 style="margin:.2rem 0">${f.name}</h3>
+          <p class="muted" style="margin:.2rem 0">Seating: ${f.cap}</p>
+          <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap">
+            <span class="badge" style="background:var(--yellow);color:#111">Rate ${f.rate}</span>
+            <span class="badge">Min. ${f.min}</span>
+            <button class="btn" data-fleet="${f.name}">Book Now</button>
+          </div>
+        </div>`;
+      list.appendChild(card);
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${f.name}</td><td>${f.cap}</td><td>${f.rate}</td><td>${f.min}</td><td><button class="btn" data-fleet="${f.name}">Book</button></td>`;
+      tbody.appendChild(tr);
+    })
+  }
+
+  function buildBlogs(){
+    const g = document.getElementById('blog-grid'); g.innerHTML='';
+    BLOG.forEach(b=>{
+      const el = document.createElement('div');
+      el.className='card';
+      el.style.padding='1rem';
+      el.innerHTML = `<span class="tag" style="background:var(--orange)">Blog</span><h3>${b.t}</h3><p class="muted">${b.p}</p><a href="#" class="btn btn-outline">Read More</a>`
+      g.appendChild(el);
+    })
+  }
+
+  // --- Booking Handlers ---
+  function openWhatsApp(payload){
+    const msg = encodeURIComponent(payload);
+    const url = `https://wa.me/${BUSINESS.phone.replace(/[^\d]/g,'')}?text=${msg}`;
+    window.open(url,'_blank','noopener');
+  }
+
+  function attachGlobalBookButtons(){
+    document.body.addEventListener('click', (e)=>{
+      const btn = e.target.closest('button');
+      if(!btn) return;
+      if(btn.dataset.route){
+        // Prefill booking form with route
+        $('#pickup').value = 'Gurugram';
+        $('#drop').value = btn.dataset.route.split('⇄')[1]?.trim() || '';
+        document.location.hash = '#home';
+        $('#pickup').focus();
+      }
+      if(btn.dataset.fleet){
+        $('#type').value = btn.dataset.fleet.includes('Innova') ? 'Innova Crysta' : btn.dataset.fleet.includes('SUV') ? 'SUV' : btn.dataset.fleet.includes('Sedan') ? 'Sedan' : btn.dataset.fleet.includes('Hatchback') ? 'Hatchback' : btn.dataset.fleet.includes('Tempo') ? 'Tempo Traveller' : 'Luxury';
+        document.location.hash = '#home';
+        $('#type').focus();
+      }
+    })
+  }
+
+  // --- Forms ---
+  const bookingForm = document.getElementById('booking-form');
+  bookingForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(bookingForm));
+    const summary = `*${BUSINESS.name} – New Booking*\n`+
+      `Name: ${data.name}\n`+
+      `Phone: ${data.phone}\n`+
+      (data.email?`Email: ${data.email}\n`:``)+
+      `Trip: ${data.trip}\n`+
+      `Cab Type: ${data.type}\n`+
+      `Pickup: ${data.pickup}\n`+
+      `Drop: ${data.drop}\n`+
+      `Date: ${formatDate(data.date)}\n`+
+      `Time: ${data.time}\n`+
+      (data.notes?`Notes: ${data.notes}`:``);
+    // Save lead locally (fallback)
+    try{const leads=JSON.parse(localStorage.getItem('leads')||'[]');leads.push({ts:Date.now(),...data});localStorage.setItem('leads',JSON.stringify(leads));}catch{}
+    // WhatsApp
+    openWhatsApp(summary);
+    // Email fallback via mailto
+    if(data.email){
+      const subject = encodeURIComponent('Taxi Booking Request – '+data.name);
+      const body = encodeURIComponent(summary.replace(/\*/g,''));
+      window.location.href = `mailto:${BUSINESS.email}?subject=${subject}&body=${body}`;
+    }
+    bookingForm.reset();
+  })
+
+  const contactForm = document.getElementById('contact-form');
+  contactForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const d = Object.fromEntries(new FormData(contactForm));
+    const message = `*${BUSINESS.name} – Contact*\nName: ${d.name}\nPhone: ${d.phone}\nEmail: ${d.email||'-'}\nMessage: ${d.message||'-'}`;
+    openWhatsApp(message);
+    // email fallback
+    const subject = encodeURIComponent('New enquiry – '+(d.name||''));
+    const body = encodeURIComponent(message.replace(/\*/g,''));
+    window.location.href = `mailto:${BUSINESS.email}?subject=${subject}&body=${body}`;
+    contactForm.reset();
+  })
+
+  // Direct WhatsApp link button
+  const waBtn = document.getElementById('wa-direct');
+  const waFloat = document.getElementById('wa-float');
+  const waUrl = `https://wa.me/${BUSINESS.phone.replace(/[^\d]/g,'')}?text=${encodeURIComponent('Hi, I would like to book a cab.')}`;
+  waBtn.href = waUrl; waFloat.href = waUrl;
+
+  // Min date/time defaults
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth()+1).padStart(2,'0');
+  const dd = String(today.getDate()).padStart(2,'0');
+  document.getElementById('date').min = `${yyyy}-${mm}-${dd}`;
+
+  // Build sections
+  buildRoutes();
+  buildFleet();
+  buildBlogs();
+  attachGlobalBookButtons();
+  document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Performance tips: images are lazy; minimal JS; no heavy fonts. -->
+</body>
+</html>
